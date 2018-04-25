@@ -33,7 +33,7 @@ loop@ for (i in 1..100) {
 }
 ```
 
-这里用标签限定过的 `break` 会跳转到标签所标记的循环语句执行处。`continue` 会继续执行循环的下一次迭代。
+这里用标签限定过的 `break` 会跳出标签所标记的循环语句执行处。`continue` 会继续执行循环的下一次迭代。
 
 ## 标签返回
 借助 function literals、local functions 和 object expression，Kotlin 还支持函数嵌套。限定过的 `return` 允许我们直接从外围函数中返回。最重要的使用场景是从 lambda 表达式中返回。当我们写下下面的代码时：
